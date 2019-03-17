@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="styles/numbers.css">
+	<script  src="scripts/numbers.js" defer></script>
+   <script  src="scripts/analogClock.js" defer></script>
+	<script src="scripts/TweenMax.min.js"></script>
+</head>
+<body>
+   <div class="mask">
+      <div id="digital"></div>
+      <!-- The date -->
+      <div id="date"></div>
+      <div id="tz">UTC</div>
+      <!-- The clock -->
+      <div id="asciiClock">
+      <pre id="hoursTens"></pre>
+      <pre id="hours"></pre>
+      <pre id="dots1">
+
+
+
+   ::::::   
+   ::::::   
+   ::::::   
+        
+        
+        
+   ::::::   
+   ::::::   
+   ::::::   
+
+
+
+      </pre>
+      <pre id="minutesTens"></pre>
+      <pre id="minutes"></pre>
+
+      <!-- The seconds -->
+      </div>
+      <div id="secondsClock">
+      <pre id="secondsTens"></pre>
+      <pre id="seconds"></pre>
+      </div>
+      <!-- The navigation -->
+      <div id="navigation">
+         <button id="secondsBut">Hide Seconds</button>
+         <button id="switchClock">Switch to analog</button>
+         <button id="utcBut">Show current timezone</button>
+      </div>
+      <div id="analog">
+         <figure><img id = "clockBackground" src="images/clockBackground.png"></figure>
+         <figure><img id="clockSeconds" src="images/clockSeconds.png"></figure>
+         <figure><img id="clockMinutes" src="images/clockMinutes.png"></figure>
+         <figure><img id="clockHours" src="images/clockHours.png"></figure>
+      </div>
+</div>
+
+</body>
+</html>

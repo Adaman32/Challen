@@ -1,0 +1,195 @@
+
+
+body{
+	background: #000000;
+	color: #2CFF02;
+}
+
+.mask {
+	height: 100vh;
+	overflow: hidden;
+}
+
+/* Font declaration
+------------------------------------*/
+
+@font-face{
+	font-family: 'Alien_Encounters';
+	src: url(../fonts/Alien_Encounters.ttf);
+}
+
+@font-face{
+	font-family: 'Mechanical';
+	src: url(../fonts/Mechanical.otf);
+}
+
+
+/* Date properties
+--------------------------*/
+
+#date{
+	margin-top: 20px; 
+	width: 100%;
+	text-align: center;
+	font-family: 'Alien_Encounters';
+	font-size: 30px;
+}
+
+#tz{
+	width: 100%;
+	text-align: center;
+	font-family: 'Alien_Encounters';
+	font-size: 30px;
+}
+
+
+
+/*  Clock properties
+--------------------------*/
+#hoursTens{
+	/*width:155px;*/
+	display: inline-block;
+	text-align: center;
+	font-family: 'Mechanical', sans-serif;
+}
+#hours {
+	/*width:155px;*/
+	display: inline-block;
+	text-align: center;
+	font-family: 'Mechanical', sans-serif;
+
+}
+#dots1 {
+	/*width:155px;*/
+	display: inline-block;
+	text-align: center;
+	font-family: 'Mechanical', sans-serif;
+
+}
+#dots2 {
+	/*width:155px;*/
+	display: inline-block;
+	text-align: center;
+	font-family: 'Mechanical', sans-serif;
+}
+#minutesTens{
+	/*width:155px;*/
+	display: inline-block;
+	text-align: center;
+	font-family: 'Mechanical', sans-serif;
+}
+#minutes{
+	/*width:155px;*/
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+	font-family: 'Mechanical', sans-serif;
+}
+#asciiClock{
+	display: block;
+	text-align: center;
+	margin-top: 150px;
+}
+
+
+/*    Seconds clock
+--------------------------*/
+#secondsTens{
+	/*width:155px;*/
+	display: inline-block;
+	text-align: center;
+}
+#seconds{
+	/*width:155px;*/
+	display: inline-block;
+	text-align: center;
+}
+#secondsClock{
+	text-align: center;
+	display: block;
+}
+
+
+/*    Analog clock
+-------------------------*/
+#analog{
+	text-align: center;
+}
+
+#clockBackground{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 550px;
+	height: 550px;
+	opacity: 0;
+}
+
+#clockSeconds{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 550px;
+	height: 550px;
+	opacity: 0;
+}
+
+#clockMinutes{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 550px;
+	height: 550px;
+	opacity: 0;
+}
+
+#clockHours{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 550px;
+	height: 550px;
+	opacity: 0;
+}
+
+
+
+/*    Navigation
+-------------------------*/
+
+button{
+	color: #2CFF02;
+	background-color: #000000;
+	border-color: #2CFF02;
+	padding: 10px;
+	font-family: 'Alien_Encounters', sans-serif;
+	margin: 10px;
+}
+
+#navigation{
+	border-top: solid;
+	border-color: #2CFF02; 
+	position: fixed;
+	bottom: 0;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+
+
+
+
